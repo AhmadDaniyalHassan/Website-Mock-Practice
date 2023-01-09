@@ -1,0 +1,232 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .wrapper{padding: 0px 5px;} */
+
+/* btn color gradient  greenish
+rgb(90,218,188) */
+/* black color bg
+rgb(21,23,22) */
+/* light black and gray bg
+rgb(22,26,25) */
+/* bg gradient color greenish light
+rgb(31,43,39) */
+/* greenish very light color for icon bg
+rgb(46,78,73) */
+.wrapper{background-color: rgb(22,26,25);}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(22, 26, 25);
+    padding: 10px;
+    color: white;
+
+}
+
+.header-heading {
+    position: relative;
+}
+
+
+
+.header-container h2 span {
+    font-size: 2.8rem;
+    color: rgb(120, 206, 205);
+    position: absolute;
+    left: -33px;
+    top: -7px;
+    transform-origin: 20px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.header-container h2 {
+    font-size: 1rem;
+    font-family: 'inter', sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+.header-heading {
+    margin-left: 50px;
+}
+
+.nav-bar ul li {
+    padding: 2px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+.nav-bar {
+    margin-left: 35px
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.7rem;
+
+}
+
+.nav-btn {
+    margin-right: 45px;
+    padding: 5px 20px;
+}
+
+ul li a:hover {
+    color: rgb(233, 235, 236);
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0px;
+    background-color: white;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.log-btn {
+    background-color: rgb(22, 26, 25);
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    /* padding: 3px solid black  */
+    /* outline: 10px solid black; */
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+.reg-btn {
+    border: none;
+    padding: 7px 18px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    background-image: linear-gradient(to left, rgb(120, 206, 205), rgb(65, 230, 170));
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 35px;
+    justify-items: center;
+    background-color: rgb(22, 26, 25);
+    padding-bottom: 70px;
+}
+
+.rs-content,
+.ls-content {
+    align-self: center;
+}
+
+.rs-content h1 {
+    font-size: 3.5rem;
+    width: 36rem;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    color: rgb(230, 230, 230);
+}
+
+.rs-content p {
+    width: 33.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(230, 230, 230);
+}
+
+.btn-hero {
+    padding: 10px 26px;
+    color: black;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+}
+
+.round {
+    width: 22rem;
+    height: 22rem;
+    border: 16px solid rgb(22, 26, 25, 0.94);
+    outline: 4px solid rgb(66, 64, 64);
+    border-radius: 50%;
+    background-image: linear-gradient(to left, rgb(120, 206, 205), rgb(65, 230, 170));
+    display: flex;
+    justify-content: center;
+    box-shadow: 100px -05px 100px 15px rgba(92, 92, 92, 0.15);
+}
+
+.nav-bar-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgb(31, 34, 33);
+}
+
+.nav-bar-2 ul li a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 1.2rem;
+}
+
+.nav-bar-2 ul {
+    display: flex;
+    list-style: none;
+    gap: 12rem;
+    font-family: 'Lato';
+}
+
+
+
+.sub-sect-content {
+    background-color: rgb(31, 32, 34);
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-items: center;
+}
+
+.sub-heading {
+    padding: 35px 0px;
+    background-color: rgb(31, 34, 33);
+    color: rgb(241, 241, 241);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.box {
+    border-radius: 20px;
+    background-color: rgb(22, 26, 25);
+    border: 2px solid rgb(53, 63, 62);
+    padding: 35px 50px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    font-family: 'Lato';
+    display: grid;
+    row-gap: 0.7rem;
+}
+
+.box2 {
+    box-shadow: -150px -70px 100px 40px rgba(28, 99, 83, 0.15);
+}
