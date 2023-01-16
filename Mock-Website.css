@@ -988,6 +988,7 @@
         width: 8rem;
         height: 8rem;
         border: 6px solid rgb(22, 26, 25, 0.94);
+        border-radius:50%
         outline: 2px solid rgb(66, 64, 64);
     }
 
