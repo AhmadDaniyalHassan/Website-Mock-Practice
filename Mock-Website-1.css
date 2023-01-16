@@ -396,7 +396,7 @@
     }
 
     .box-1 {
-        background-image: url(/Images-1/illustration-editor-desktop.svg);
+        background-image: url(Images-1/illustration-editor-desktop.svg);
         background-position: 134% 96%;
         background-size: 600px;
         background-repeat: no-repeat;
@@ -507,7 +507,7 @@
     }
 
     .box-3-content {
-        background-image: url(/Images-1/illustration-laptop-desktop.svg);
+        background-image: url(Images-1/illustration-laptop-desktop.svg);
         background-position: -44% 96%;
         background-size: 700px;
         background-repeat: no-repeat;
