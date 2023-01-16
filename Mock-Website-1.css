@@ -185,7 +185,7 @@
     text-align: center;
     background-color: hsl(237, 17%, 21%);
     padding-top: 180px;
-    background-image: url(/Images-1/bg-pattern-circles.svg);
+    background-image: url(Images-1/bg-pattern-circles.svg);
     background-position: -95px -230px;
     background-repeat: no-repeat;
     background-size: 535px;
@@ -450,7 +450,7 @@
         height: 300px;
         text-align: center;
         background-color: hsl(237, 17%, 21%);
-        background-image: url(/Images-1/bg-pattern-circles.svg);
+        background-image: url(Images-1/bg-pattern-circles.svg);
         background-position: -150px -340px;
         background-repeat: no-repeat;
         background-size: 700px;
