@@ -175,6 +175,9 @@
     display: flex;
     justify-content: center;
     box-shadow: 100px -05px 100px 15px rgba(92, 92, 92, 0.15);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -khtml-border-radius:50%;
 }
 
 .nav-bar-2 {
@@ -620,6 +623,9 @@
         height: 10rem;
         border: 6px solid rgb(22, 26, 25, 0.94);
         outline: 2px solid rgb(66, 64, 64);
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        -khtml-border-radius:50%;
     }
 
     .round img {
@@ -979,17 +985,16 @@
         font-size: 0.6rem;
         border-radius: 10px;
     }
-
-    /*  width: 4.45rem;
-        padding: 4px 2px;
-        font-size: .6rem;
-        border-radius: 6px; */
+    
     .round {
         width: 8rem;
         height: 8rem;
         border: 6px solid rgb(22, 26, 25, 0.94);
         border-radius:50%;
         outline: 2px solid rgb(66, 64, 64);
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        -khtml-border-radius:50%;
     }
 
     .round img {
